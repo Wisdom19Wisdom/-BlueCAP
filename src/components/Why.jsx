@@ -12,7 +12,7 @@ const Why = () => {
       </Slide>
       <Fade direction="right" triggerOnce delay={200}>
         <p className="font-semibold text-xl mt-3 md:mt-8 md:mx-8">
-            Recently, the memecoin scene has been filled with rug pulls and projects that didn`t lived up to their promise.🐶👎🏿
+            Recently, the memecoin scene has been filled with rug pulls and projects that haven`t lived up to their promise.
         </p>
       </Fade>
       <Slide direction="left" triggerOnce delay={300}>
