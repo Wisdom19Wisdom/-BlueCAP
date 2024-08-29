@@ -1,5 +1,5 @@
 import { FaLock } from "react-icons/fa"
-import { FaArrowTrendUp, FaBuildingColumns, FaBuildingLock, FaCoins, FaRotate, FaUsers } from "react-icons/fa6"
+import { FaArrowTrendUp, FaBuildingColumns, FaBuildingLock, FaCoins, FaMoneyCheckDollar, FaRotate, FaUsers } from "react-icons/fa6"
 import Token from "../image/blcap6.jpeg"
 import { Fade, Slide } from "react-awesome-reveal";
 
@@ -13,6 +13,9 @@ const Info = () => {
         <div>
           <p className="text-text justify-center flex pt-10 text-3xl font-semibold">1,000,000,000 <FaCoins className="mx-1 mt-1"/></p>
           <span className="text-xl font-semibold">Initial Supply</span>
+        </div> 
+        <div>
+          <p className="text-text justify-center flex pt-3 text-2xl font-semibold">Zero Tax <FaMoneyCheckDollar className="mx-1 mt-1"/></p>
         </div> 
       </Slide>
 

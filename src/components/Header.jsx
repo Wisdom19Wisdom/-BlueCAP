@@ -37,7 +37,7 @@ const Header = () => {
       <div className="hidden lg:w-[40%] lg:justify-around md:justify-between md:flex lg:gap-8 gap-4">
         <Link to="about" smooth={true} offset={-180} duration={500} className="text-text font-bold lg:text-2xl md:text-lg hover:text-main">About</Link>
         <Link to="why" smooth={true} offset={-150} duration={500} className="text-text font-bold lg:text-2xl md:text-lg hover:text-main">Why</Link>
-        <Link to="info" smooth={true} offset={-110} duration={500} className="text-text font-bold lg:text-2xl md:text-lg hover:text-main">Info</Link>
+        <Link to="info" smooth={true} offset={-110} duration={500} className="text-text font-bold lg:text-2xl md:text-lg hover:text-main">Tokenomics</Link>
         <Link to="chart" smooth={true} offset={-125} duration={500} className="text-text font-bold lg:text-2xl md:text-lg hover:text-main">Chart</Link>
         <Link to="roadmap" smooth={true} offset={-120} duration={500} className="text-text font-bold lg:text-2xl md:text-lg hover:text-main">Roadmap</Link>
       </div>
@@ -57,7 +57,7 @@ const Header = () => {
         <p className="py-2 text-text font-bold text-3xl hover:text-main">Why</p>
       </Link>
       <Link to="info" onClick={toggle} smooth={true} offset={-110} duration={500} className="justify-between">
-        <p className="py-2 text-text font-bold text-3xl hover:text-main">Info</p>
+        <p className="py-2 text-text font-bold text-3xl hover:text-main">Tokenomics</p>
       </Link>
       <Link to="chart" onClick={toggle} smooth={true} offset={-125} duration={500} className="justify-between">
         <p className="py-2 text-text font-bold text-3xl hover:text-main">Chart</p>
