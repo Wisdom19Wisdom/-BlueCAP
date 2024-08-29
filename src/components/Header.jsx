@@ -1,5 +1,5 @@
 import Marquee from "react-fast-marquee"
-import Dogcap from "../image/dog-with-cap.png"
+import Dogcap from "../image/blueSlide-removebg.png"
 import Bluecaplogo from "../image/bluecaplogo.png"
 import telegram from "../image/telegram_icon.webp"
 import { Link } from "react-scroll"
