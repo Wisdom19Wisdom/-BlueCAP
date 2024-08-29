@@ -6,7 +6,7 @@ const Legal = () => {
       <Fade direction="up" triggerOnce delay={200}>
         <h1 className="text-xl g:text-2xl font-bold mb-4">LEGAL DISCLAIMER <span className="text-main">$BlueCAP</span></h1>
         <p className="mb-4"><span className="text-main">$BlueCAP</span> operates as a decentralized cryptocurrency.
-          By engaging in the trading of $BLUECAP tokens, you acknowledge and agree that:
+          By engaging in the trading of <span className="text-main">$BlueCAP</span> tokens, you acknowledge and agree that:
         </p>
         <div className="text-sm md:text-base lg:text-lg flex flex-col lg:grid lg:grid-cols-2 lg:gap-8">
           <div className="mb-4 lg:mb-0">
