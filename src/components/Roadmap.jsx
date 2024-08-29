@@ -22,7 +22,7 @@ const Roadmap = () => {
                   <div className="text-2xl font-bold mb-2">PHASE 1: Foundation</div>
                   <ul className="list-disc pl-6 space-y-1">
                   <li>Recruit / hire team</li>
-                  <li>Full Website launched</li>
+                  <li>Full Website launch</li>
                   <li>Expand TG group to 500+ members</li>
                   <li>Community events (giveaways, meme-contests)</li>
                   </ul>
