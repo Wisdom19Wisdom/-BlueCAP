@@ -50,19 +50,19 @@ const Header = () => {
       <div className="text-3xl mr-4 text-main cursor-pointer sm:hidden" onClick={toggle}>{isOpen ? <FaTimes/> : <FaBars/>}</div>
     </div>
     <div className={`${isOpen ? 'top-[7.9rem]' : '-top-72'} sm:hidden w-[90%] fixed text-center left-1/2 transform -translate-x-1/2 my-auto bg-white mt-1 py-8 items-center justify-center transition-all self-center duration-400 ease-in-out text-2xl z-10 shadow-lg rounded-2xl`}>
-      <Link to="about" onClick={toggle} smooth={true} offset={-180} duration={500} className="justify-between">
+      <Link to="about-bluecap" onClick={toggle} smooth={true} offset={-180} duration={500} className="justify-between">
         <p className="py-2 text-text font-bold text-3xl hover:text-main">About</p>
       </Link>
-      <Link to="why" onClick={toggle} smooth={true} offset={-150} duration={500} className="justify-between">
+      <Link to="why-bluecap" onClick={toggle} smooth={true} offset={-150} duration={500} className="justify-between">
         <p className="py-2 text-text font-bold text-3xl hover:text-main">Why</p>
       </Link>
-      <Link to="info" onClick={toggle} smooth={true} offset={-110} duration={500} className="justify-between">
+      <Link to="info-bluecap" onClick={toggle} smooth={true} offset={-110} duration={500} className="justify-between">
         <p className="py-2 text-text font-bold text-3xl hover:text-main">Tokenomics</p>
       </Link>
-      <Link to="chart" onClick={toggle} smooth={true} offset={-125} duration={500} className="justify-between">
+      <Link to="chart-bluecap" onClick={toggle} smooth={true} offset={-125} duration={500} className="justify-between">
         <p className="py-2 text-text font-bold text-3xl hover:text-main">Chart</p>
       </Link>
-      <Link to="roadmap" onClick={toggle} smooth={true} offset={-120} duration={500} className="justify-between">
+      <Link to="roadmap-bluecap" onClick={toggle} smooth={true} offset={-120} duration={500} className="justify-between">
         <p className="py-2 text-text font-bold text-3xl hover:text-main">Roadmap</p>
       </Link>
       <div className="flex mt-4 justify-center">
