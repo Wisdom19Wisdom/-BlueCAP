@@ -5,7 +5,7 @@ import { Fade, Slide } from "react-awesome-reveal";
 
 const Roadmap = () => {
   return (
-    <div className="roadmap p-6 text-text">
+    <div className="roadmap-bluecap p-6 text-text">
       <Fade direction="up" triggerOnce delay={200}>
         <h1 className="text-4xl text-center font-bold mb-4">Roadmap</h1>
       </Fade>
@@ -83,9 +83,9 @@ const Roadmap = () => {
             </Slide>
         </div>
         <div className="hidden lg:block">
-          <Slide direction="right" triggerOnce delay={300}><img src={Roadmapimg} className="w-64 h-64 rounded-xl my-2" /></Slide>
-          <Slide direction="right" triggerOnce delay={300}><img src={Roadimg} className="w-64 h-64 rounded-xl my-2" /></Slide>
-          <Slide direction="right" triggerOnce delay={300}><img src={Road} className="w-64 h-64 rounded-xl my-2" /></Slide>
+          <Slide direction="right" triggerOnce delay={300}><img src={Roadmapimg} className="w-64 h-64 rounded-xl my-2" alt="BlueCAP Logo - A Symbol of Trust and Creativity"/></Slide>
+          <Slide direction="right" triggerOnce delay={300}><img src={Roadimg} className="w-64 h-64 rounded-xl my-2" alt="BlueCAP Logo - A Symbol of Trust and Creativity"/></Slide>
+          <Slide direction="right" triggerOnce delay={300}><img src={Road} className="w-64 h-64 rounded-xl my-2" alt="BlueCAP Logo - A Symbol of Trust and Creativity"/></Slide>
         </div>
       </div>
     </div>

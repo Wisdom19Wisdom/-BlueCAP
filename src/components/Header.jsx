@@ -19,27 +19,27 @@ const Header = () => {
         speed={45}
         className="text-white font-bold text-2xl flex items-center"
       >
-        <div className="mx-4"><div className="flex">$BLUECAP <img src={Dogcap} className="w-8" /></div></div>
-        <div className="mx-4"><div className="flex">$BLUECAP <img src={Dogcap} className="w-8" /></div></div>
-        <div className="mx-4"><div className="flex">$BLUECAP <img src={Dogcap} className="w-8" /></div></div>
-        <div className="mx-4"><div className="flex">$BLUECAP <img src={Dogcap} className="w-8" /></div></div>
-        <div className="mx-4"><div className="flex">$BLUECAP <img src={Dogcap} className="w-8" /></div></div>
-        <div className="mx-4"><div className="flex">$BLUECAP <img src={Dogcap} className="w-8" /></div></div>
-        <div className="mx-4"><div className="flex">$BLUECAP <img src={Dogcap} className="w-8" /></div></div>
-        <div className="mx-4"><div className="flex">$BLUECAP <img src={Dogcap} className="w-8" /></div></div>
-        <div className="mx-4"><div className="flex">$BLUECAP <img src={Dogcap} className="w-8" /></div></div>
+        <div className="mx-4"><div className="flex">$BLUECAP <img src={Dogcap} className="w-8" alt="BlueCAP Logo - A Symbol of Trust and Creativity"/></div></div>
+        <div className="mx-4"><div className="flex">$BLUECAP <img src={Dogcap} className="w-8" alt="BlueCAP Logo - A Symbol of Trust and Creativity"/></div></div>
+        <div className="mx-4"><div className="flex">$BLUECAP <img src={Dogcap} className="w-8" alt="BlueCAP Logo - A Symbol of Trust and Creativity"/></div></div>
+        <div className="mx-4"><div className="flex">$BLUECAP <img src={Dogcap} className="w-8" alt="BlueCAP Logo - A Symbol of Trust and Creativity"/></div></div>
+        <div className="mx-4"><div className="flex">$BLUECAP <img src={Dogcap} className="w-8" alt="BlueCAP Logo - A Symbol of Trust and Creativity"/></div></div>
+        <div className="mx-4"><div className="flex">$BLUECAP <img src={Dogcap} className="w-8" alt="BlueCAP Logo - A Symbol of Trust and Creativity"/></div></div>
+        <div className="mx-4"><div className="flex">$BLUECAP <img src={Dogcap} className="w-8" alt="BlueCAP Logo - A Symbol of Trust and Creativity"/></div></div>
+        <div className="mx-4"><div className="flex">$BLUECAP <img src={Dogcap} className="w-8" alt="BlueCAP Logo - A Symbol of Trust and Creativity"/></div></div>
+        <div className="mx-4"><div className="flex">$BLUECAP <img src={Dogcap} className="w-8" alt="BlueCAP Logo - A Symbol of Trust and Creativity"/></div></div>
       </Marquee>
     </div>
 
     <div className="w-[90%] mt-12 left-1/2 transform -translate-x-1/2 bg-white mx-auto h-20 rounded-2xl justify-between fixed z-20 flex items-center shadow-lg">
-      <div className="w-[25%] md:w-[20%] lg:w-[10%]"><img src={Bluecaplogo} className="w-28" /></div>
+      <div className="w-[25%] md:w-[20%] lg:w-[10%]"><img src={Bluecaplogo} className="w-28" alt="BlueCAP Logo - A Symbol of Trust and Creativity"/></div>
 
       <div className="hidden lg:w-[40%] lg:justify-around md:justify-between md:flex lg:gap-8 gap-4">
-        <Link to="about" smooth={true} offset={-180} duration={500} className="text-text font-bold lg:text-2xl md:text-lg hover:text-main">About</Link>
-        <Link to="why" smooth={true} offset={-150} duration={500} className="text-text font-bold lg:text-2xl md:text-lg hover:text-main">Why</Link>
-        <Link to="info" smooth={true} offset={-110} duration={500} className="text-text font-bold lg:text-2xl md:text-lg hover:text-main">Tokenomics</Link>
-        <Link to="chart" smooth={true} offset={-125} duration={500} className="text-text font-bold lg:text-2xl md:text-lg hover:text-main">Chart</Link>
-        <Link to="roadmap" smooth={true} offset={-120} duration={500} className="text-text font-bold lg:text-2xl md:text-lg hover:text-main">Roadmap</Link>
+        <Link to="about-bluecap" smooth={true} offset={-180} duration={500} className="text-text font-bold lg:text-2xl md:text-lg hover:text-main">About</Link>
+        <Link to="why-bluecap" smooth={true} offset={-150} duration={500} className="text-text font-bold lg:text-2xl md:text-lg hover:text-main">Why</Link>
+        <Link to="info-bluecap" smooth={true} offset={-110} duration={500} className="text-text font-bold lg:text-2xl md:text-lg hover:text-main">Tokenomics</Link>
+        <Link to="chart-bluecap" smooth={true} offset={-125} duration={500} className="text-text font-bold lg:text-2xl md:text-lg hover:text-main">Chart</Link>
+        <Link to="roadmap-bluecap" smooth={true} offset={-120} duration={500} className="text-text font-bold lg:text-2xl md:text-lg hover:text-main">Roadmap</Link>
       </div>
 
       <div className="hidden mr-7 w-[15%] justify-around md:flex gap-3">

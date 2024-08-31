@@ -2,13 +2,13 @@ import chart from "../image/Trendlines.png"
 
 const Chart = () => {
   return (
-    <div className="chart relative h-96 text-center text-text">
+    <div className="chart-bluecap relative h-96 text-center text-text">
       {/* Background Image with Overlay */}
       <div
         className="absolute inset-0 bg-cover bg-center"
-        style={{ backgroundImage: `url(${chart})`, opacity: 0.3 }} // Adjust opacity here
+        style={{ backgroundImage: `url(${chart})`, opacity: 0.3 }} 
       >
-        <div className="absolute inset-0 bg-gradient-to-t from-[#accefa] via-transparent to-black opacity-40"></div> {/* Optional: Gradient overlay */}
+        <div className="absolute inset-0 bg-gradient-to-t from-[#accefa] via-transparent to-black opacity-40"></div>
       </div>
 
         <p className="text-3xl md:text-5xl font-extrabold pt-7">LIVE CHART📈</p>

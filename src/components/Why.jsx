@@ -6,9 +6,9 @@ import { Fade, Slide } from "react-awesome-reveal";
 
 const Why = () => {
   return (
-    <div className="why text-center text-text mx-5 mt-16">
+    <div className="why-bluecap text-center text-text mx-5 mt-16">
       <Slide direction="right" triggerOnce delay={300}>
-        <p className="text-3xl md:text-5xl font-extrabold">WHY <span className="text-main">$BlueCAP</span>?</p>
+        <h1 className="text-3xl md:text-5xl font-extrabold">WHY <span className="text-main">$BlueCAP</span>?</h1>
       </Slide>
       <Fade direction="right" triggerOnce delay={200}>
         <p className="font-semibold text-xl mt-3 md:mt-8 md:mx-8">
@@ -16,7 +16,7 @@ const Why = () => {
         </p>
       </Fade>
       <Slide direction="left" triggerOnce delay={300}>
-        <img src={BlcapAngry} className="w-52 lg:w-64 mx-auto" />
+        <img src={BlcapAngry} className="w-52 lg:w-64 mx-auto" alt="BlueCAP Logo - A Symbol of Trust and Creativity"/>
       </Slide>
       <Fade direction="right" triggerOnce delay={200}>
         <p className="font-semibold text-xl mt-2 md:mx-8">
@@ -26,9 +26,9 @@ const Why = () => {
       </Fade>
       <Slide direction="up" triggerOnce delay={300}>
         <div className="flex justify-around mt-3">
-          <img src={Blcapraise} className="w-36 md:w-52 lg:w-64 rounded-2xl" />
-          <img src={BlueHands} className=" w-36 md:w-52 lg:w-64 rounded-2xl" />
-          <img src={BlcapRaise} className="hidden md:block md:w-52 lg:w-64 rounded-2xl" />
+          <img src={Blcapraise} className="w-36 md:w-52 lg:w-64 rounded-2xl" alt="BlueCAP Logo - A Symbol of Trust and Creativity"/>
+          <img src={BlueHands} className=" w-36 md:w-52 lg:w-64 rounded-2xl" alt="BlueCAP Logo - A Symbol of Trust and Creativity"/>
+          <img src={BlcapRaise} className="hidden md:block md:w-52 lg:w-64 rounded-2xl" alt="BlueCAP Logo - A Symbol of Trust and Creativity"/>
         </div>
       </Slide>
     </div>

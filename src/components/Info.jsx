@@ -5,9 +5,9 @@ import { Fade, Slide } from "react-awesome-reveal";
 
 const Info = () => {
   return (
-    <div className="info w-full text-center h-auto p-10 text-text mt-16 bg-[#47a9ee] justify-center items-center">
+    <div className="info-bluecap w-full text-center h-auto p-10 text-text mt-16 bg-[#47a9ee] justify-center items-center">
       <Fade direction="up" triggerOnce delay={200}>
-        <p className="text-3xl md:text-5xl font-extrabold flex justify-center underline">TOKENOMICS <FaBuildingColumns className="mx-1"/></p>
+        <h1 className="text-3xl md:text-5xl font-extrabold flex justify-center underline">TOKENOMICS <FaBuildingColumns className="mx-1"/></h1>
       </Fade>
       <Slide direction="right" triggerOnce delay={300}>
         <div>
@@ -31,7 +31,7 @@ const Info = () => {
       </Fade>
       <Slide direction="up" triggerOnce delay={300}>
         <div className="flex justify-center">
-          <img src={Token} className="rounded-full w-52 md:w-72 lg:w-96" />
+          <img src={Token} className="rounded-full w-52 md:w-72 lg:w-96" alt="BlueCAP Logo - A Symbol of Trust and Creativity"/>
         </div>
       </Slide>
       <Fade direction="up" triggerOnce delay={200}>
